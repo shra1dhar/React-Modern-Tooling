@@ -4,8 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shra1dhar/React-Modern-Tooling.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/shra1dhar/React-Modern-Tooling/issues"
+  },
+  "homepage": "https://github.com/shra1dhar/React-Modern-Tooling#readme",
+  "dependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
 }
