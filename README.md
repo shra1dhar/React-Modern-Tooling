@@ -1,1 +1,33 @@
 # React-Modern-Tooling
+
+## Procedure
+
+### Install Webpack
+- `npm install --save-dependency webpack webpack-cli`
+- Add `"scripts": { "build": "webpack" }` in *package.json*
+- Run in dev mode using: `npm run build -- --mode development`
+
+### Configuring Webpack
+- Create *webpack.config.js* at root (preferably).
+- Write custom preferences in it.
+- **dist** folder contains our build file. It can be run using `node dist/app.bundle.js`
+
+### Install Babel
+- `npm i -D @babel/core @babel/cli @babel/preset-env` *(-D means dev dependancy)*
+- `node_modules/.bin/babel` or `$(npm bin)/babel ./src/greet.js` to run it.
+- `$(npm bin)/babel ./src/greet.js --presets=@babel/preset-env` using preset flags.
+
+### Configure Babel
+- `npm i -D babel-loader`
+- Add module( with req props) in *webpack.config.js* to couple babel and webpack together.
+- `npm run build` can be used to see the build file on which babel has spitted out oldbrowser compatible code.
+
+### Install React 
+- `npm i -S react react-dom prop-types` *(-S is for runtime dependancy)*
+- To make babel work with react code use: `npm i -D @babel/preset-react`
+
+### Futher Steps
+- For letting webpack generate html for use install **html-webpack-plugin** `npm i -D html-webpack-plugin`
+
+
+
