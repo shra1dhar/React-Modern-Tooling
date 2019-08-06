@@ -34,10 +34,11 @@
 - `npm install -D webpack-dev-server` to save it as a dev dependency.
 - `$ npm i -D @babel/plugin-proposal-class-properties` to support proposed JavaScript Features with Babel Plugins.
 
-## Packages for hot reload
+## Additional Packages
 - `$ npm i -D css-loader style-loader` for style and css loader.
 - **css-loader** is going to let webpack handle the .css syntax, and then **style-loader** is actually going to take that, inject CSS, and inject a <style> tag into our HTML at runtime.
-
+- `$ npm i -S react-hot-loader` for installing hot-reload package.
+- `$ npm i -D webpack-bundle-analyzer` to Analyze a Production JavaScript Bundle with webpack-bundle-analyzer.
 
 
 
