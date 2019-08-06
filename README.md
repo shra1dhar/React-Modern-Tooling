@@ -29,5 +29,15 @@
 ### Futher Steps
 - For letting webpack generate html for use install **html-webpack-plugin** `npm i -D html-webpack-plugin`
 
+### Two Webpack configs (dev and production)
+- `npm i -D webpack-merge` to maintain two separate configs without duplicating any of the settings that are shared.
+- `npm install -D webpack-dev-server` to save it as a dev dependency.
+- `$ npm i -D @babel/plugin-proposal-class-properties` to support proposed JavaScript Features with Babel Plugins.
+
+## Packages for hot reload
+- `$ npm i -D css-loader style-loader` for style and css loader.
+- **css-loader** is going to let webpack handle the .css syntax, and then **style-loader** is actually going to take that, inject CSS, and inject a <style> tag into our HTML at runtime.
+
+
 
 
