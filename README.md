@@ -1,7 +1,5 @@
 # React-Modern-Tooling
 
-## Procedure
-
 ### Install Webpack
 - `npm install --save-dependency webpack webpack-cli`
 - Add `"scripts": { "build": "webpack" }` in *package.json*
