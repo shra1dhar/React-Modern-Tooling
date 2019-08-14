@@ -38,5 +38,9 @@
 - `$ npm i -S react-hot-loader` for installing hot-reload package.
 - `$ npm i -D webpack-bundle-analyzer` to Analyze a Production JavaScript Bundle with webpack-bundle-analyzer.
 
+## Target Specific Browser with babel-preset-env and babel polyfill
+- `$ npm i -S @babel/polyfill`
 
+## Check for browsers | last 2 versions, !(dead) and !(<2% market share)
+- `$ npx browserslist "last 2 versions, not dead, not < 2%`
 
