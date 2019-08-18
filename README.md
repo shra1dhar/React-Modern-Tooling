@@ -44,3 +44,5 @@
 ## Check for browsers | last 2 versions, !(dead) and !(<2% market share)
 - `$ npx browserslist "last 2 versions, not dead, not < 2%`
 
+## Asynchronously Load webpack Bundles through Code-splitting and React Suspense
+- `npm i -D @babel/plugin-syntax-dynamic-import`
